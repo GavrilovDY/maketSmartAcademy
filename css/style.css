@@ -429,3 +429,134 @@ html {
   position: relative;
 }
 /* how does it works  stop*/
+
+/*Price start */
+.pricing_plan_text {
+  max-width: 332px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+  top: 270px;
+  left: 150px;
+  position: relative;
+}
+
+.monthly {
+  top: 320px;
+  right: -150px;
+  position: relative;
+  z-index: 1;
+}
+.yearly {
+  top: 320px;
+  right: -145px;
+  position: relative;
+  z-index: 1;
+}
+.white_block {
+  width: 310px;
+  top: -70px;
+  left: 570px;
+  position: relative;
+  z-index: 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Параметры тени */
+  padding: 10px;
+}
+
+.premium_icon {
+  width: 95px;
+  top: -450px;
+  left: 360px;
+  position: relative;
+  z-index: 1;
+}
+
+.premium_text {
+  max-width: 332px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 184%;
+  text-align: center;
+  top: -460px;
+  left: 550px;
+  position: relative;
+}
+.sell1 {
+  max-width: 332px;
+
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  top: -460px;
+  left: 550px;
+  position: relative;
+  color: #0f7bff;
+}
+
+.try_now_blue {
+  top: -420px;
+  left: 630px;
+  position: relative;
+  z-index: 1;
+}
+
+.white_block2 {
+  width: 310px;
+  top: -870px; /* top: -70px;*/
+  left: 900px; /* left: 570px; */
+  position: relative;
+  z-index: 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Параметры тени */
+  padding: 10px;
+}
+
+.standart_icon {
+  width: 95px;
+  top: -1250px;
+  left: 690px;
+  position: relative;
+  z-index: 1;
+}
+
+.standart_text {
+  max-width: 332px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 184%;
+  text-align: center;
+  top: -1260px;
+  left: 880px;
+  position: relative;
+}
+.sell2 {
+  max-width: 332px;
+
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  top: -1260px;
+  left: 880px;
+  position: relative;
+  color: #0f7bff;
+}
+
+.try_now_white {
+  top: -1220px;
+  left: 960px;
+  position: relative;
+  z-index: 1;
+}
+/*Price stop */
