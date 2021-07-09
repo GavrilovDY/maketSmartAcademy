@@ -338,3 +338,94 @@ html {
   z-index: 1;
 }
 /* photo people stop */
+
+/* how does it works  start*/
+
+.how_does {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  height: 635px;
+  background: #f5fcfd no-repeat center;
+  background-size: cover;
+}
+
+.how_does_text {
+  max-width: 722px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  top: 100px;
+  left: 0px;
+  position: relative;
+}
+
+.Icon1 {
+  top: 150px;
+  right: -150px;
+  position: relative;
+  z-index: 1;
+}
+.Icon2 {
+  top: 150px;
+  right: -370px;
+  position: relative;
+  z-index: 1;
+}
+.Icon3 {
+  top: 150px;
+  right: -590px;
+  position: relative;
+  z-index: 1;
+}
+
+.Line {
+  top: 100px;
+  right: 160px;
+  position: relative;
+  z-index: 0;
+}
+
+.Create_An_Account_text {
+  max-width: 333px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  top: 160px;
+  left: 30px;
+  position: relative;
+}
+
+.Confirm_Email_text {
+  max-width: 333px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  top: 37px;
+  left: 360px;
+  position: relative;
+}
+
+.See_Results_text {
+  max-width: 333px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  top: -86px;
+  left: 690px;
+  position: relative;
+}
+/* how does it works  stop*/
