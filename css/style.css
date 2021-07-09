@@ -560,3 +560,107 @@ html {
   z-index: 1;
 }
 /*Price stop */
+
+/* Trusted By More block start*/
+.hands_back {
+  width: 1370px;
+  top: -1100px;
+  left: -10px;
+  position: relative;
+  z-index: 0;
+}
+.trusted_more_text {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  top: -1700px;
+  left: 300px;
+  position: relative;
+}
+.twiter_fon {
+  width: 300px;
+  top: -1400px;
+  left: 600px;
+  position: relative;
+  z-index: 1;
+}
+.twiter_icon {
+  top: -1500px;
+  left: 550px;
+  position: relative;
+  z-index: 1;
+}
+
+.twiter_text1 {
+  width: 332px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: left;
+  top: -1650px;
+  left: 600px;
+  position: relative;
+  z-index: 2;
+}
+
+.twiter_fon2 {
+  width: 300px;
+  top: -1400px;
+  left: 600px;
+  position: relative;
+  z-index: 1;
+}
+.twiter_icon2 {
+  top: -1500px;
+  left: 550px;
+  position: relative;
+  z-index: 1;
+}
+
+.twiter_text2 {
+  width: 332px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: left;
+  top: -1820px;
+  left: 935px;
+  position: relative;
+  z-index: 2;
+}
+
+.twiter_fon3 {
+  width: 300px;
+  top: -1400px;
+  left: 600px;
+  position: relative;
+  z-index: 1;
+}
+.twiter_icon3 {
+  top: -1500px;
+  left: 550px;
+  position: relative;
+  z-index: 1;
+}
+
+.twiter_text3 {
+  width: 332px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: left;
+  top: -1990px;
+  left: 1275px;
+  position: relative;
+  z-index: 2;
+}
+/* Trusted By More block stop*/
