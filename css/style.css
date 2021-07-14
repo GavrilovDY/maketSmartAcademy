@@ -877,8 +877,8 @@ html {
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: center;
-  height: 635px;
-  background: #0F7BFF no-repeat center;
+  height: 485px;
+  background: #0f7bff no-repeat center;
   background-size: cover;
 }
 
@@ -893,7 +893,7 @@ html {
   top: -300px;
   left: 0px;
   position: relative;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .Subscribe {
@@ -902,4 +902,67 @@ html {
   position: relative;
   z-index: 1;
 }
-/* trial 30 days stop
+/* trial 30 days stop*/
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  height: 125px;
+  background: #0063dd no-repeat center;
+  background-size: cover;
+}
+.footer_text1 {
+  max-width: 370px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+  top: -30px;
+  left: -170px;
+  position: relative;
+}
+
+.footer_menu_text {
+  max-width: 370px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+  top: 45px;
+  left: -50px;
+  position: relative;
+}
+
+.Scroll_up {
+  top: -20px;
+  left: 340px;
+  position: relative;
+  z-index: 1;
+}
+
+.Icon_FB {
+  top: -40px;
+  left: 280px;
+  position: relative;
+  z-index: 1;
+}
+
+.Icon_Twitter {
+  top: -40px;
+  left: 300px;
+  position: relative;
+  z-index: 1;
+}
+
+.Icon_YouTube {
+  top: -40px;
+  left: 320px;
+  position: relative;
+  z-index: 1;
+}
