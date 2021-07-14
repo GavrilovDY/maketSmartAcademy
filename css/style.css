@@ -664,3 +664,242 @@ html {
   z-index: 2;
 }
 /* Trusted By More block stop*/
+
+/*Block news  start*/
+
+.heading_news {
+  width: 722px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  top: -1720px;
+  left: 300px;
+  position: relative;
+  z-index: 2;
+}
+
+.Image_news1 {
+  top: -1700px;
+  left: 100px;
+  position: relative;
+  z-index: 1;
+}
+.master_bedroom {
+  position: absolute;
+  width: 558px;
+  height: 72px;
+  left: 125px;
+  top: 5180px;
+
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+
+  color: #0063dd;
+}
+
+.text_news1 {
+  width: 543px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: left;
+  top: -1630px;
+  left: 120px;
+  position: relative;
+  z-index: 2;
+}
+
+.continue_reading {
+  height: 24px;
+  width: 543px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: left;
+  top: -1630px;
+  left: 120px;
+  position: relative;
+  z-index: 2;
+  color: #0063dd;
+}
+
+.Arrow2 {
+  top: -1650px;
+  left: 270px;
+  position: relative;
+  z-index: 1;
+}
+
+.Image_news2 {
+  top: -2195px;
+  left: 700px;
+  position: relative;
+  z-index: 1;
+}
+.master_bedroom2 {
+  position: absolute;
+  width: 413px;
+  height: 54px;
+  left: 900px;
+  top: 4870px;
+
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.text_news2 {
+  width: 413px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: left;
+  top: -2310px;
+  left: 890px;
+  position: relative;
+  z-index: 2;
+}
+
+.Image_news3 {
+  top: -2300px;
+  left: 700px;
+  position: relative;
+  z-index: 1;
+}
+.master_bedroom3 {
+  position: absolute;
+  width: 413px;
+  height: 54px;
+  left: 900px;
+  top: 5010px;
+
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.text_news3 {
+  width: 413px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: left;
+  top: -2420px;
+  left: 890px;
+  position: relative;
+  z-index: 2;
+}
+
+.Image_news4 {
+  top: -2400px;
+  left: 700px;
+  position: relative;
+  z-index: 1;
+}
+.master_bedroom4 {
+  position: absolute;
+  width: 413px;
+  height: 54px;
+  left: 900px;
+  top: 5160px;
+
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.text_news4 {
+  width: 413px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: left;
+  top: -2520px;
+  left: 890px;
+  position: relative;
+  z-index: 2;
+}
+/*Block news stop */
+/* trial 30 day start */
+.trial {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  height: 635px;
+  background: #f5fcfd no-repeat center;
+  background-size: cover;
+}
+
+.trial_text {
+  max-width: 722px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+  top: -300px;
+  left: -300px;
+  position: relative;
+}
+
+.get_started_button {
+  top: -300px;
+  left: 0px;
+  position: relative;
+  z-index: 1;
+}
+.AppSon_footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  height: 635px;
+  background: #0F7BFF no-repeat center;
+  background-size: cover;
+}
+
+.AppSon_footer_text {
+  max-width: 133px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+  top: -300px;
+  left: 0px;
+  position: relative;
+  color: #FFFFFF;
+}
+
+.Subscribe {
+  top: -300px;
+  left: 0px;
+  position: relative;
+  z-index: 1;
+}
+/* trial 30 days stop
