@@ -25,19 +25,28 @@
           <nav class="header__nav">
             <ul class="header__list">
               <li class="header__item">
-                <a href="#!" class="header__link">HOME</a>
+                <a href="#" class="header__link">HOME</a>
               </li>
               <li class="header__item">
-                <a href="#!" class="header__link">FEATURES</a>
+                <a href="#futures" class="header__link">FEATURES</a>
               </li>
               <li class="header__item">
-                <a href="#!" class="header__link">PRICING</a>
+                <a href="#pricing" class="header__link">PRICING</a>
               </li>
               <li class="header__item">
-                <a href="#!" class="header__link">PAGES</a>
+                <a href="#pages" class="header__link">PAGES</a>
               </li>
               <li class="header__item">
-                <a href="#!" class="header__button-link">
+                <script type="text/javascript">
+                  function promptMsg(node) {
+                    
+                    let name = prompt("Write your login:", "userName");
+                      
+                    prompt("Write your password:", "*****");
+                    return alert(`Hello, ${name} !`);;
+                  }
+                  </script>
+                <a href="#!" class="header__button-link" onclick="return promptMsg(this)">
                   <img
                     src="/img/Button.png"
                     alt="SING UP"
@@ -60,20 +69,21 @@
           incididunt ut labore et dolore magna aliqua.
         </p>
         <div class="downloads">
-          <img src="/img/Download.png" alt="Download" class="download-pic" />
-          <img
+          <a href="conditional_soft/install.docx"><img src="/img/Download.png" alt="Download" class="download-pic" /></a>
+          <a href="conditional_soft/install_trial.docx"><img
             src="/img/Free_Trial.png"
             alt="Free_Trial"
             class="download-pic"
-          />
+          /> </a>
         </div>
         <div class="devices">
           <img src="/img/Devices.png" alt="Devices" class="devices-pic" />
-          <img src="/img/scrol_down.png" alt="Down" class="scrol_down-pic" />
+          <a href="#down"> <img src="/img/scrol_down.png" alt="Down" class="scrol_down-pic" /> </a>
         </div>
+        
       </section>
-      <div class="advantage">
-        <img src="/img/square.png" alt="" class="square-pic" />
+      <div class="advantage" >
+        <img src="/img/square.png" id="futures" alt="" class="square-pic" />
         <img src="/img/square.png" alt="" class="square-pic" />
         <img src="/img/square.png" alt="" class="square-pic" />
       </div>
@@ -115,8 +125,8 @@
           tempor incididunt ut labore et dolore magna aliqua.
         </div>
         <div class="easy_messaging_more">
-          <p>Read More</p>
-          <img src="/img/Arrow.png" alt="Arrow" class="Arrow1" />
+          <a href="https://zapier.com/blog/best-texting-app/" class="more"><p>Read More</p> </a>
+          <a href="https://zapier.com/blog/best-texting-app/" class="more"><img src="/img/Arrow.png" alt="Arrow" class="Arrow1" /></a>
         </div>
       </div>
       <div class="keep_in_touch_block">
@@ -130,7 +140,7 @@
           tempor incididunt ut labore et dolore magna aliqua.
         </div>
         <div class="keep_in_touch_more">
-          <p>Read More</p>
+          <a href="https://eforward.ru/blog/poleznie-frazi-kotorim-ne-uchat/" class="more"><p>Read More</p></a>
           <img src="/img/Arrow.png" alt="Arrow" class="Arrow2" />
         </div>
       </div>
@@ -155,29 +165,30 @@
           </div>
         </div>
       </div>
-      <div class="Price">
+      <div id="pricing" class="Price">
         <div class="pricing_plan_block">
           <div class="pricing_plan_text">
-            <h3>Pricing Plan</h3>
-            <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.
+          <h3>Pricing Plan</h3>
+          <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.
           </div>
-          <img src="/img/monthly.png" alt="monthly" class="monthly" />
-          <img src="/img/yearly.png" alt="yearly" class="yearly" />
+          <a href="https://oilworld.biz/media/cache/original/3c/a5/a6794fe3e86a1675d551333129e7.jpeg"><img src="/img/monthly.png" alt="monthly" class="monthly" /></a>
+          <a href="https://grammartop.com/wp-content/uploads/2020/11/yearly-ae003de4b4befd973759f618f52625d6a0fda604.png"><img src="/img/yearly.png" alt="yearly" class="yearly" /></a>
         </div>
-        <div class="premium_block">
-          <img src="/img/white_block.png" alt="white_block" class="white_block" />
-          <img src="/img/premium_icon.png" alt="premium_icon" class="premium_icon" />
-          <div class="premium_text">
-            <h3>Premium</h3>
-            <br />2gb Hosting
-            <br />10 Custom Domain
-            <br />SSD Hosting
-            <br />50 gb Bandwith
-            <br />Free Support.
-          </div>
-          <div class="sell1">$49.00</div>
-          <img src="/img/try_now_blue.png" alt="try_now" class="try_now_blue" />
+      <div class="premium_block">
+        <img src="/img/white_block.png" alt="white_block" class="white_block" />
+        <img src="/img/premium_icon.png" alt="premium_icon" class="premium_icon" />
+        <div class="premium_text">
+        <h3>Premium</h3>
+        <br />2gb Hosting
+        <br />10 Custom Domain
+        <br />SSD Hosting
+        <br />50 gb Bandwith
+        <br />Free Support.
         </div>
+        <div class="sell1">$49.00</div>
+        <a href="conditional_soft/install_premium.docx"><img src="/img/try_now_blue.png" alt="try_now" class="try_now_blue" /></a>
+      </div>
+    
         <div class="standart_block">
           <img src="/img/white_block.png" alt="white_block" class="white_block2" />
           <img src="/img/standart_icon.png" alt="standart_icon" class="standart_icon" />
@@ -190,46 +201,47 @@
             <br />Free Support.
           </div>
           <div class="sell2">$19.00</div>
-          <img src="/img/try_now_white.png" alt="try_now" class="try_now_white" />
+          <a href="conditional_soft/install_standart.docx"><img src="/img/try_now_white.png" alt="try_now" class="try_now_white" /></a>
         </div>
-            </div>
+      
+    </div>
             <div class="trusted_by_more">
               <img src="/img/hands_back.png" alt="hands_back" class="hands_back" />
               <img src="/img/twiter_fon.png" alt="twiter_fon" class="twiter_fon" />
-              <img src="/img/twiter_icon.png" alt="twiter_icon" class="twiter_icon" />
+              <a href="https://twitter.com/?lang=ru"><img src="/img/twiter_icon.png" alt="twiter_icon" class="twiter_icon" /></a> 
               <img src="/img/twiter_fon.png" alt="twiter_fon" class="twiter_fon2" />
               <img src="/img/twiter_icon.png" alt="twiter_icon" class="twiter_icon2" />
               <img src="/img/twiter_fon.png" alt="twiter_fon" class="twiter_fon3" />
               <img src="/img/twiter_icon.png" alt="twiter_icon" class="twiter_icon3" />
               <div class="trusted_more_text">
-                <h1>Trusted By More Than 55M Peoples</h1>
-                </div>
-                <div class="twiter_text1">
-                  <h3>Raisa Moni</h3>
-                  <br /> Envato Customer
-                  <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etamet.
-                </div>
-                <div class="twiter_text2">
-                  <h3>Raisa Moni</h3>
-                  <br /> Envato Customer
-                  <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etamet.
-                </div>
-                <div class="twiter_text3">
-                  <h3>Raisa Moni</h3>
-                  <br /> Envato Customer
-                  <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etamet.
-                </div>
+              <h1>Trusted By More Than 55M Peoples</h1>
+              </div>
+              <div class="twiter_text1">
+              <a href="https://twitter.com/?lang=ru" class="link"><h3>Raisa Moni</h3></a>
+              <br /> Envato Customer
+              <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etamet.
+              </div>
+              <div class="twiter_text2">
+                <a href="https://twitter.com/?lang=ru" class="link"><h3>Raisa Moni</h3></a>
+              <br /> Envato Customer
+              <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etamet.
+              </div>
+              <div class="twiter_text3">
+                <a href="https://twitter.com/?lang=ru" class="link"><h3>Raisa Moni</h3></a>
+              <br /> Envato Customer
+              <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etamet.
+              </div>
             </div>
-            <div class="news_block">
+            <div class="news_block" >
              <div class="heading_news">
               <h2>Latest News From Us</h2> <br />
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.
             </div>
-            <img src="/img/Image_news1.png" alt="Image_news1" class="Image_news1" />
+            <img src="/img/Image_news1.png" alt="Image_news1" class="Image_news1" id="pages" />
             <div class="master_bedroom">
               <p>The master bedroom suite is phenomenally spacious</p> <br /> </div>
               <div class="text_news1"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
-              <div class="continue_reading"> <p>Continue Reading</p></div>
+              <div class="continue_reading"> <a href="https://news.google.com/topstories?hl=ru&gl=RU&ceid=RU:ru" class="more"><p>Continue Reading</p></a></div>
               <img src="/img/Arrow.png" alt="Arrow" class="Arrow2" />
             </div>
             <img src="/img/Image_news2.png" alt="Image_news2" class="Image_news2" />
@@ -255,9 +267,9 @@
                 <h1>Try 30 Days Free Trial</h1>
                 No credit card reauired
               </div>
-              <img src="/img/get_started_button.png" alt="get started button" class="get_started_button" />
+              <a href="#pricing"><img src="/img/get_started_button.png" alt="get started button" class="get_started_button" /></a>
             </div>
-            <div class="AppSon_footer">
+            <div class="AppSon_footer" id="down">
               <div class="AppSon_footer_text">
                 <h1>AppSon</h1>
               </div>
@@ -272,10 +284,10 @@
                   <p>Terms & Condition Privacy Policy Help</p>
                 </div>
                   
-                <img src="/img/Icon FB.png" alt="Icon FB" class="Icon_FB" />
-                <img src="/img/Icon Twitter.png" alt="Icon Twitter" class="Icon_Twitter" />
-                <img src="/img/Icon YouTube.png" alt="Icon YouTube" class="Icon_YouTube" />
-                <img src="/img/Scroll up.png" alt="Scroll up" class="Scroll_up" />
+                <a href="https://www.facebook.com/"><img src="/img/Icon FB.png" alt="Icon FB" class="Icon_FB" /></a>
+                <a href="https://twitter.com/?lang=ru"><img src="/img/Icon Twitter.png" alt="Icon Twitter" class="Icon_Twitter" /> </a>
+                <a href="https://www.youtube.com/index?gl=RU&hl=ru"><img src="/img/Icon YouTube.png" alt="Icon YouTube" class="Icon_YouTube" /></a>
+                <a id="back2Top" title="Наверх" href="#"><img src="/img/Scroll up.png" alt="Scroll up" class="Scroll_up" /></a>
               </div>
                  </div>
     </main>
